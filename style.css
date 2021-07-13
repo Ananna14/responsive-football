@@ -19,6 +19,8 @@ body{
 .players{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
 }
 .player img{
     width: 300px;
