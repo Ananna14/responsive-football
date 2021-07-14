@@ -69,6 +69,11 @@ body{
     line-height: 26px;
     color: #6C6C6C;
 }
+/* footer-img  */
+.footer-img{
+    text-align: center;
+    margin-top:150px;
+}
 /* icon-style  */
 .footer-main-div{
     width:100%;
@@ -95,4 +100,9 @@ body{
     border-radius: 100%;
     background:lightgrey;
     padding:10px;
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
 }
