@@ -106,3 +106,27 @@ body{
     font-size: 18px;
     color: #000000;
 }
+/* Media-Queries  */
+
+/* Mobile-devices  */
+@media only screen and  (max-width:688px) {
+ .half-width{
+        font-size:16px;
+        margin-left:5px;
+    }
+.top-banner{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+}
+   top-banner{
+       width:100%;
+   }
+    .container{
+        width:100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
