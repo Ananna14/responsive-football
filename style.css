@@ -48,7 +48,6 @@ body{
     margin-top:70px;
     margin-left:180px;
     margin-right: 210px;
-    
 }
 .players{
     display:grid;
@@ -130,21 +129,28 @@ body{
         font-size: 16px;
         width:329px;
         top: 374px;
-        margin-right:20px;
+        margin-left: 5px;
+    }
+    .half-width img{
+        width:100%;
+        margin-right: 10px;
+        margin-top:5px;
     }
 .top-banner{
         display:grid;
         grid-template-columns: repeat(1,1fr);
 }
-   top-banner{
+   .top-banner{
        width:100%;
    }
     .container{
         width:100%;
+        margin-left:unset;    
     }
     .players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+       
     }
     
 }
