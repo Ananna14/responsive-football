@@ -1,7 +1,9 @@
 /* fonts  */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* top-banner  */
+
 .top-banner{
     background-color: #2D25A0;
     width: 1440px;
@@ -69,12 +71,24 @@ body{
     line-height: 26px;
     color: #6C6C6C;
 }
+/* Extra-work  */
+.table-added{
+    text-align: center;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top:165px;
+    background-color: lightgrey;
+}
+
 /* footer-img  */
+
 .footer-img{
     text-align: center;
     margin-top:150px;
 }
+
 /* icon-style  */
+
 .footer-main-div{
     width:100%;
     height: auto;
@@ -106,13 +120,17 @@ body{
     font-size: 18px;
     color: #000000;
 }
+
 /* Media-Queries  */
 
 /* Mobile-devices  */
+
 @media only screen and  (max-width:688px) {
  .half-width{
-        font-size:16px;
-        margin-left:5px;
+        font-size: 16px;
+        width:329px;
+        top: 374px;
+        margin-right:20px;
     }
 .top-banner{
         display:grid;
