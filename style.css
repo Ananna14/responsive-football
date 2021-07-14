@@ -27,6 +27,13 @@
     float:right;
     margin-right: 96.99px;
     margin-top:135px;
+    transition: width 5s, height 5s, transform 10s;
+}
+.half-width img:hover{
+    width:200px;
+    height:200px;
+    transform: translateY(20px);
+   
 }
 
 /* common-style  */
@@ -61,4 +68,31 @@ body{
     font-size: 16px;
     line-height: 26px;
     color: #6C6C6C;
+}
+/* icon-style  */
+.footer-main-div{
+    width:100%;
+    height: auto;
+    margin:auto;
+    padding:20px 0px;
+}
+.footer-social-icons{
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+.footer-social-icons{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-social-icons ul li{
+    display:inline-block;
+}
+.footer-social-icons ul li a{
+    color:#969BAB;
+    font-size:25px;
+    border-radius: 100%;
+    background:lightgrey;
+    padding:10px;
 }
